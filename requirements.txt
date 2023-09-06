@@ -1,0 +1,30 @@
+# api
+fastapi
+uvicorn[standard]
+
+# database
+psycopg[binary]
+sqlalchemy
+pgvector
+
+# personal preference
+black
+isort
+ipython
+
+# LLM stuff
+bertopic
+datasets
+bitsandbytes
+xformers
+adjustText
+accelerate
+perf
+trl
+langchain
+
+# visuals
+seaborn
+
+# other stuff I needed for various other tasks
+PyPDF2

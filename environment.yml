@@ -1,0 +1,13 @@
+name: genai
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  # python
+  - python=3.10
+  # Nvidia stuff
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
